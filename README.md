@@ -16,6 +16,7 @@ The project is designed to automate the following test case:
 - **Operating System:** Windows 10.
 - **Language:** Java.
 - **Automation Tool:** Utilizes Selenium WebDriver for web automation.
+- **Testing Framework:** Utilizes JUnit for test case organization and assertions.
 - **Browser:** Uses Chrome browser.
 - **Dependency Management:** Maven is used for dependency management.
 - **WebDriverManager:** The project uses WebDriverManager for managing WebDriver binaries.
@@ -25,9 +26,13 @@ The project is designed to automate the following test case:
 1. Clone this repository to your local machine.
 2. Make sure you have JDK, Maven, and Chrome browser installed on your machine.
 3. Open the project in your preferred Java IDE.
-4. Run the `SearchSteps` class, which contains the test automation code.
+4. Run the `SearchTest` class, which contains the test automation code.
 5. The test will open Chrome browser, navigate to the WebstaurantStore website, perform the test steps, and verify the results.
 6. After completing the test, the browser will close automatically.
+
+## Test Code
+
+The test code is located in the 'SearchTest' class. It containsa JUnit test method `testSearchAndAddToCart()` that automates the test case described above.
 
 ## Contributors
 
